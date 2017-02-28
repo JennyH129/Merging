@@ -52,6 +52,12 @@ public class MergeSortTester
      ******************************/
     public static void main( String[] args )
     {
+	//------------Warm Up--------------
+	int[] warmUp = new int[100];
+	System.out.println( "Warmup: ");
+	averagePrint(warmUp);
+	System.out.print("\n\n");
+	
 	//----------- Creating Arrays ----------
 	int[] arr1 = new int [1];
 	int[] arr10 = new int[10]; 
